@@ -15,7 +15,7 @@
 
 <!-- e.g., How many Raspberry Pi? How much you spent on these resources? -->
 硬體設備：樹莓派、水槍、MOSFET、麵包板、杜邦線、電池、電風扇、一塊錢  
-在此專題中費用花費四百多塊
+在此專題中包括測試費用花費五百多塊
 ## Existing Library/Software
 
 <!-- Which libraries do you use while you implement the project -->
