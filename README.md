@@ -49,7 +49,7 @@ IP查詢
 ## Installation
 
 <!-- How do the user install with your project? -->
-防火牆設定：  
+### 防火牆設定：  
 這邊操作全都在Raspberry Pi上
 sudo apt install iptable  
 #### INPUT 鏈
@@ -115,12 +115,12 @@ sudo iptables -A OUTPUT -d 104.27.206.92 -j DROP
 sudo iptables -A OUTPUT -d 163.22.17.234 -j DROP
 
 
-找A片IP：
+### 找A片IP：
 1.先搜尋網站並擷取發光的網址 EX:下圖google.com這段  
 ![image](https://github.com/user-attachments/assets/482c0fa0-2c4e-4209-9576-0c740ceb0ba2)  
 2.去CMD用nslookup去尋找ip位置
 
-硬體電路：
+### 硬體電路：
 1. 將 MOSFET 線插在麵包板上面，每個腳位要在不同的線路上。下圖為 MOSFET 的三個腳位。
 ![image](https://github.com/user-attachments/assets/e01f7153-f6b0-44af-90c0-5ce4a75ea38b)
 2. PI 的 GPIO 接上腳位 G。
