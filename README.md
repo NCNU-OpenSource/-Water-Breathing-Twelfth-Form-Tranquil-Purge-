@@ -51,6 +51,7 @@ IP查詢
 <!-- How do the user install with your project? -->
 防火牆設定：  
 這邊操作全都在Raspberry Pi上
+sudo apt install iptable  
 #### INPUT 鏈
 sudo iptables -A INPUT -s 66.254.114.41 -j DROP  
 sudo iptables -A INPUT -s 104.23.131.4 -j DROP  
