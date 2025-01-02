@@ -160,5 +160,5 @@ https://raspberrytw.tumblr.com/post/48939062042/raspberry-pi-lirc-implement
 https://hackmd.io/Sd59QRjvRHGNSpyHHdpccg  
 水槍購買連結:https://tw.shp.ee/3Ew3ym5  
 
-非常感謝MOLI免費支援MOSFET以及杜邦線和電風扇  
+非常感謝MOLI免費支援MOSFET、杜邦線、電風扇、麵包板  
 非常感謝josh學長以及柏瑋學長的技術支援
