@@ -14,8 +14,8 @@
 ## Implementation Resources
 
 <!-- e.g., How many Raspberry Pi? How much you spent on these resources? -->
-硬體設備：樹莓派、水槍、MOSFET、麵包板、杜邦線、電池、電風扇、一塊錢
-
+硬體設備：樹莓派、水槍、MOSFET、麵包板、杜邦線、電池、電風扇、一塊錢  
+在此專題中費用花費四百多塊
 ## Existing Library/Software
 
 <!-- Which libraries do you use while you implement the project -->
@@ -24,7 +24,7 @@ sudo apt install iptable
 sudo iptables -A INPUT -s {網站IP} -j DROP
 
 #### FORWARD 鏈 (有 LOG 規則)
-sudo iptables -A FORWARD -d {網站IP} -j LOG --log-prefix "{log隨意名稱}" --log-level 4
+sudo iptables -A FORWARD -d {網站IP} -j LOG --log-prefix "{log名而已可以隨意設置}" --log-level 4
 sudo iptables -A FORWARD -d {網站IP} -j DROP
 
 #### OUTPUT 鏈
@@ -49,9 +49,14 @@ IP查詢
 ## Installation
 
 <!-- How do the user install with your project? -->
+### 本機預設網路閘道（提醒一下本機重開機之後會需要重新設置一次）
+
+
+
 ### 防火牆設定：  
-這邊操作全都在Raspberry Pi上
+這邊操作全都在Raspberry Pi上  
 sudo apt install iptable  
+下列功能設定可以用FORWARD 鏈的就好
 #### INPUT 鏈
 sudo iptables -A INPUT -s 66.254.114.41 -j DROP  
 sudo iptables -A INPUT -s 104.23.131.4 -j DROP  
@@ -131,10 +136,12 @@ sudo iptables -A OUTPUT -d 163.22.17.234 -j DROP
 最終電路圖如下：
 ![image](https://github.com/user-attachments/assets/5cd73c2c-f89d-4ecf-a5df-f848524f9f5e)
 
+### 腳本
+我們提供的腳本所預設的GPIO是17，且觸發兩秒
 ## Usage
 
 <!-- How to use your project -->
-當你查詢被禁止的網站時旁邊的水槍就會開始發射，如果網站都沒關掉會持續發射水柱直到你關掉網站或是電池沒電
+當你查詢被禁止的網站時旁邊的水槍就會開始發射，如果網站都沒關掉會持續發射水柱直到你關掉網站或是電池沒電或沒水
 
 ## Job Assignment
 111213012 郭方朔:查A片  
