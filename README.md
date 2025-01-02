@@ -25,6 +25,10 @@
 ## Knowledge from Lecture
 
 <!-- What kind of knowledge did you use on this project? -->
+Raspberry Pi 3環境設置  
+windows default gateway 設置  
+linux 防火牆設置
+電晶體增加電流
 
 ## Installation
 
@@ -43,4 +47,5 @@
 111213066 蔡家生:想題目、提供設備、簡報製作  
 111213081 譚皓宇:想題目、硬體技術  
 ## References
-https://raspberrytw.tumblr.com/post/48939062042/raspberry-pi-lirc-implement
+https://raspberrytw.tumblr.com/post/48939062042/raspberry-pi-lirc-implement  
+https://hackmd.io/Sd59QRjvRHGNSpyHHdpccg
