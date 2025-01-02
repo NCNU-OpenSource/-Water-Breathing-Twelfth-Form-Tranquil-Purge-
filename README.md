@@ -27,7 +27,7 @@
 <!-- What kind of knowledge did you use on this project? -->
 Raspberry Pi 3環境設置  
 windows default gateway 設置  
-linux 防火牆設置
+linux 防火牆設置  
 電晶體增加電流
 
 ## Installation
