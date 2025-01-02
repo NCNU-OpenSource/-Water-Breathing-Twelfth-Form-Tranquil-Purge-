@@ -144,9 +144,9 @@ sudo iptables -A OUTPUT -d 163.22.17.234 -j DROP
 111213066 蔡家生:想題目、提供設備、簡報製作、github編寫  
 111213081 譚皓宇:想題目、硬體技術  
 ## References
-https://raspberrytw.tumblr.com/post/48939062042/raspberry-pi-lirc-implement
-https://raspberrypi.stackexchange.com/questions/70931/how-do-i-do-a-basic-mosfet-switch-with-pi
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lesics.com%2Fhow-does-a-mosfet-work.html&psig=AOvVaw2MxxZidanqnzb0kbDMFeR3&ust=1735886471080000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOjzp5e31ooDFQAAAAAdAAAAABAE
 https://raspberrytw.tumblr.com/post/48939062042/raspberry-pi-lirc-implement  
-https://hackmd.io/Sd59QRjvRHGNSpyHHdpccg
+https://raspberrypi.stackexchange.com/questions/70931/how-do-i-do-a-basic-mosfet-switch-with-pi  
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lesics.com%2Fhow-does-a-mosfet-work.html&psig=AOvVaw2MxxZidanqnzb0kbDMFeR3&ust=1735886471080000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOjzp5e31ooDFQAAAAAdAAAAABAE  
+https://raspberrytw.tumblr.com/post/48939062042/raspberry-pi-lirc-implement  
+https://hackmd.io/Sd59QRjvRHGNSpyHHdpccg  
 
