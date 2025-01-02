@@ -9,6 +9,7 @@
 ## Concept Development
 
 <!-- Why does your team want to build this idea/project?  -->
+11月NNN挑戰總是失敗還沒成功過，於是我們想提供那些一樣都是失敗的人提供一個可以有效解決問題的方式，我們沒辦法解決慾望的問題所以我們就想辦法解決有問題的人，水槍的水可以幫使用者降降火
 
 ## Implementation Resources
 
