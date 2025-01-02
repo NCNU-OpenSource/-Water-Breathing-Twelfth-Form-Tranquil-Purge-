@@ -49,7 +49,70 @@ IP查詢
 ## Installation
 
 <!-- How do the user install with your project? -->
-防火牆設定：
+防火牆設定：  
+這邊操作全都在Raspberry Pi上
+#### INPUT 鏈
+sudo iptables -A INPUT -s 66.254.114.41 -j DROP
+sudo iptables -A INPUT -s 104.23.131.4 -j DROP
+sudo iptables -A INPUT -s 104.23.130.4 -j DROP
+sudo iptables -A INPUT -s 172.67.11.177 -j DROP
+sudo iptables -A INPUT -s 104.22.13.46 -j DROP
+sudo iptables -A INPUT -s 104.22.12.46 -j DROP
+sudo iptables -A INPUT -s 172.67.195.179 -j DROP
+sudo iptables -A INPUT -s 104.21.84.181 -j DROP
+sudo iptables -A INPUT -s 104.22.18.113 -j DROP
+sudo iptables -A INPUT -s 104.22.19.113 -j DROP
+sudo iptables -A INPUT -s 172.67.4.152 -j DROP
+sudo iptables -A INPUT -s 104.27.207.92 -j DROP
+sudo iptables -A INPUT -s 104.27.206.92 -j DROP
+sudo iptables -A INPUT -s 163.22.17.234 -j DROP
+
+#### FORWARD 鏈 (有 LOG 規則)
+sudo iptables -A FORWARD -d 66.254.114.41 -j LOG --log-prefix "Yellow Blocked: " --log-level 4
+sudo iptables -A FORWARD -d 66.254.114.41 -j DROP
+sudo iptables -A FORWARD -d 104.23.131.4 -j LOG --log-prefix "Yellow Blocked: " --log-level 4
+sudo iptables -A FORWARD -d 104.23.131.4 -j DROP
+sudo iptables -A FORWARD -d 104.23.130.4 -j LOG --log-prefix "Yellow Blocked: " --log-level 4
+sudo iptables -A FORWARD -d 104.23.130.4 -j DROP
+sudo iptables -A FORWARD -d 172.67.11.177 -j LOG --log-prefix "Yellow Blocked: " --log-level 4
+sudo iptables -A FORWARD -d 172.67.11.177 -j DROP
+sudo iptables -A FORWARD -d 104.22.13.46 -j LOG --log-prefix "Yellow Blocked: " --log-level 4
+sudo iptables -A FORWARD -d 104.22.13.46 -j DROP
+sudo iptables -A FORWARD -d 104.22.12.46 -j LOG --log-prefix "Yellow Blocked: " --log-level 4
+sudo iptables -A FORWARD -d 104.22.12.46 -j DROP
+sudo iptables -A FORWARD -d 172.67.195.179 -j LOG --log-prefix "Yellow Blocked: " --log-level 4
+sudo iptables -A FORWARD -d 172.67.195.179 -j DROP
+sudo iptables -A FORWARD -d 104.21.84.181 -j LOG --log-prefix "Yellow Blocked: " --log-level 4
+sudo iptables -A FORWARD -d 104.21.84.181 -j DROP
+sudo iptables -A FORWARD -d 104.22.18.113 -j LOG --log-prefix "Yellow Blocked: " --log-level 4
+sudo iptables -A FORWARD -d 104.22.18.113 -j DROP
+sudo iptables -A FORWARD -d 104.22.19.113 -j LOG --log-prefix "Yellow Blocked: " --log-level 4
+sudo iptables -A FORWARD -d 104.22.19.113 -j DROP
+sudo iptables -A FORWARD -d 172.67.4.152 -j LOG --log-prefix "Yellow Blocked: " --log-level 4
+sudo iptables -A FORWARD -d 172.67.4.152 -j DROP
+sudo iptables -A FORWARD -d 104.27.207.92 -j LOG --log-prefix "Yellow Blocked: " --log-level 4
+sudo iptables -A FORWARD -d 104.27.207.92 -j DROP
+sudo iptables -A FORWARD -d 104.27.206.92 -j LOG --log-prefix "Yellow Blocked: " --log-level 4
+sudo iptables -A FORWARD -d 104.27.206.92 -j DROP
+sudo iptables -A FORWARD -d 163.22.17.234 -j LOG --log-prefix "Yellow Blocked: " --log-level 4
+sudo iptables -A FORWARD -d 163.22.17.234 -j DROP
+
+#### OUTPUT 鏈
+sudo iptables -A OUTPUT -d 66.254.114.41 -j DROP
+sudo iptables -A OUTPUT -d 104.23.131.4 -j DROP
+sudo iptables -A OUTPUT -d 104.23.130.4 -j DROP
+sudo iptables -A OUTPUT -d 172.67.11.177 -j DROP
+sudo iptables -A OUTPUT -d 104.22.13.46 -j DROP
+sudo iptables -A OUTPUT -d 104.22.12.46 -j DROP
+sudo iptables -A OUTPUT -d 172.67.195.179 -j DROP
+sudo iptables -A OUTPUT -d 104.21.84.181 -j DROP
+sudo iptables -A OUTPUT -d 104.22.18.113 -j DROP
+sudo iptables -A OUTPUT -d 104.22.19.113 -j DROP
+sudo iptables -A OUTPUT -d 172.67.4.152 -j DROP
+sudo iptables -A OUTPUT -d 104.27.207.92 -j DROP
+sudo iptables -A OUTPUT -d 104.27.206.92 -j DROP
+sudo iptables -A OUTPUT -d 163.22.17.234 -j DROP
+
 
 找A片IP：
 1.先搜尋網站並擷取發光的網址 EX:下圖google.com這段  
