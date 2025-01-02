@@ -99,19 +99,19 @@ sudo iptables -A FORWARD -d 163.22.17.234 -j LOG --log-prefix "Yellow Blocked: "
 sudo iptables -A FORWARD -d 163.22.17.234 -j DROP  
 
 #### OUTPUT 鏈
-sudo iptables -A OUTPUT -d 66.254.114.41 -j DROP
-sudo iptables -A OUTPUT -d 104.23.131.4 -j DROP
-sudo iptables -A OUTPUT -d 104.23.130.4 -j DROP
-sudo iptables -A OUTPUT -d 172.67.11.177 -j DROP
-sudo iptables -A OUTPUT -d 104.22.13.46 -j DROP
-sudo iptables -A OUTPUT -d 104.22.12.46 -j DROP
-sudo iptables -A OUTPUT -d 172.67.195.179 -j DROP
-sudo iptables -A OUTPUT -d 104.21.84.181 -j DROP
-sudo iptables -A OUTPUT -d 104.22.18.113 -j DROP
-sudo iptables -A OUTPUT -d 104.22.19.113 -j DROP
-sudo iptables -A OUTPUT -d 172.67.4.152 -j DROP
-sudo iptables -A OUTPUT -d 104.27.207.92 -j DROP
-sudo iptables -A OUTPUT -d 104.27.206.92 -j DROP
+sudo iptables -A OUTPUT -d 66.254.114.41 -j DROP  
+sudo iptables -A OUTPUT -d 104.23.131.4 -j DROP  
+sudo iptables -A OUTPUT -d 104.23.130.4 -j DROP  
+sudo iptables -A OUTPUT -d 172.67.11.177 -j DROP  
+sudo iptables -A OUTPUT -d 104.22.13.46 -j DROP  
+sudo iptables -A OUTPUT -d 104.22.12.46 -j DROP  
+sudo iptables -A OUTPUT -d 172.67.195.179 -j DROP  
+sudo iptables -A OUTPUT -d 104.21.84.181 -j DROP  
+sudo iptables -A OUTPUT -d 104.22.18.113 -j DROP  
+sudo iptables -A OUTPUT -d 104.22.19.113 -j DROP  
+sudo iptables -A OUTPUT -d 172.67.4.152 -j DROP  
+sudo iptables -A OUTPUT -d 104.27.207.92 -j DROP  
+sudo iptables -A OUTPUT -d 104.27.206.92 -j DROP  
 sudo iptables -A OUTPUT -d 163.22.17.234 -j DROP
 
 
