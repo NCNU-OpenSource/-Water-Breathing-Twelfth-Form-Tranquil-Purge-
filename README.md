@@ -49,9 +49,9 @@ IP查詢
 ## Installation
 
 <!-- How do the user install with your project? -->
+### 需要都連同一個網路
 ### 本機預設網路閘道（提醒一下本機重開機之後會需要重新設置一次）
-
-
+route delete 0.0.0.0 mask 0.0.0.0 <默認網關的IP地址>  
 
 ### 防火牆設定：  
 這邊操作全都在Raspberry Pi上  
