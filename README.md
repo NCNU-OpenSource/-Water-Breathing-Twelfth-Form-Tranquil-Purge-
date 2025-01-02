@@ -9,6 +9,7 @@
 ## Concept Development
 
 <!-- Why does your team want to build this idea/project?  -->
+11月NNN挑戰總是失敗還沒成功過，於是我們想提供那些一樣都是失敗的人提供一個可以有效解決問題的方式，我們沒辦法解決慾望的問題所以我們就想辦法解決有問題的人，水槍的水可以幫使用者降降火，藉由此來阻止做清槍的部分
 
 ## Implementation Resources
 
@@ -26,6 +27,14 @@
 ## Knowledge from Lecture
 
 <!-- What kind of knowledge did you use on this project? -->
+Raspberry Pi 3環境設置  
+Raspberry Pi 輸出訊號  
+Raspberry Pi 腳本設計  
+windows default gateway 設置  
+linux 防火牆設置  
+電晶體接法  
+IP查詢
+  
 
 ## Installation
 
@@ -51,13 +60,16 @@
 當你查詢被禁止的網站時旁邊的水槍就會開始發射，如果網站都沒關掉會持續發射水柱直到你關掉網站
 
 ## Job Assignment
-111213012 郭方朔:查A片
-111213013 潘劭穎:想題目、腳本設計/測試、規則設計/測試
-111213015 蔡昇佑:想題目、電路設計
-111213035 羅智穎:想題目、設備處理、初始環境設置、被顏射
-111213066 蔡家生:想題目、提供設備、簡報製作
-111213081 譚皓宇:想題目、硬體技術
+111213012 郭方朔:查A片  
+111213013 潘劭穎:想題目、腳本設計/測試、規則設計/測試  
+111213015 蔡昇佑:想題目、電路設計  
+111213035 羅智穎:想題目、設備處理、初始環境設置、被顏射  
+111213066 蔡家生:想題目、提供設備、簡報製作  
+111213081 譚皓宇:想題目、硬體技術  
 ## References
 https://raspberrytw.tumblr.com/post/48939062042/raspberry-pi-lirc-implement
 https://raspberrypi.stackexchange.com/questions/70931/how-do-i-do-a-basic-mosfet-switch-with-pi
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lesics.com%2Fhow-does-a-mosfet-work.html&psig=AOvVaw2MxxZidanqnzb0kbDMFeR3&ust=1735886471080000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOjzp5e31ooDFQAAAAAdAAAAABAE
+https://raspberrytw.tumblr.com/post/48939062042/raspberry-pi-lirc-implement  
+https://hackmd.io/Sd59QRjvRHGNSpyHHdpccg
+
