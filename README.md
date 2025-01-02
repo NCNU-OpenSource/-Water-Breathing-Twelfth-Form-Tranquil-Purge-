@@ -26,9 +26,13 @@
 
 <!-- What kind of knowledge did you use on this project? -->
 Raspberry Pi 3環境設置  
+Raspberry Pi 輸出訊號  
+Raspberry Pi 腳本設計  
 windows default gateway 設置  
 linux 防火牆設置  
-電晶體增加電流
+電晶體接法  
+IP查詢
+  
 
 ## Installation
 
