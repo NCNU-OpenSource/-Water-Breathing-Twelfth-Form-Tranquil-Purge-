@@ -1,4 +1,4 @@
-# Final_Project_for_LSA
+# 水の呼吸-第十二型-瑟瑟盡除
 111213012 郭方朔
 111213013 潘劭穎
 111213015 蔡昇佑
@@ -17,6 +17,7 @@
 ## Existing Library/Software
 
 <!-- Which libraries do you use while you implement the project -->
+硬體設備：樹莓派、水槍、MOSFET、麵包板、杜邦線、電池、電風扇、一塊錢
 
 ## Implementation Process
 
@@ -29,6 +30,20 @@
 ## Installation
 
 <!-- How do the user install with your project? -->
+防火牆設定：
+
+找A片：
+
+硬體電路：
+1. 將 MOSFET 線插在麵包板上面，每個腳位要在不同的線路上。下圖為 MOSFET 的三個腳位。
+![image](https://github.com/user-attachments/assets/e01f7153-f6b0-44af-90c0-5ce4a75ea38b)
+2. PI 的 GPIO 接上腳位 G。
+3. 水槍的負極接上腳位 D。
+4. PI 的接地線接上腳位 S。
+5. 電池正極接上水槍的正極。
+6. 電池負極接上腳位 S。
+最終電路圖如下：
+![image](https://github.com/user-attachments/assets/5cd73c2c-f89d-4ecf-a5df-f848524f9f5e)
 
 ## Usage
 
@@ -44,3 +59,5 @@
 111213081 譚皓宇:想題目、硬體技術
 ## References
 https://raspberrytw.tumblr.com/post/48939062042/raspberry-pi-lirc-implement
+https://raspberrypi.stackexchange.com/questions/70931/how-do-i-do-a-basic-mosfet-switch-with-pi
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lesics.com%2Fhow-does-a-mosfet-work.html&psig=AOvVaw2MxxZidanqnzb0kbDMFeR3&ust=1735886471080000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOjzp5e31ooDFQAAAAAdAAAAABAE
