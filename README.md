@@ -158,6 +158,7 @@ https://raspberrypi.stackexchange.com/questions/70931/how-do-i-do-a-basic-mosfet
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lesics.com%2Fhow-does-a-mosfet-work.html&psig=AOvVaw2MxxZidanqnzb0kbDMFeR3&ust=1735886471080000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOjzp5e31ooDFQAAAAAdAAAAABAE  
 https://raspberrytw.tumblr.com/post/48939062042/raspberry-pi-lirc-implement  
 https://hackmd.io/Sd59QRjvRHGNSpyHHdpccg  
+
 水槍購買連結:https://tw.shp.ee/3Ew3ym5  
 
 非常感謝MOLI免費支援MOSFET、杜邦線、電風扇、麵包板  
