@@ -41,7 +41,10 @@ IP查詢
 <!-- How do the user install with your project? -->
 防火牆設定：
 
-找A片：
+找A片IP：
+1.先搜尋網站並擷取發光的網址 EX:下圖google.com這段  
+![image](https://github.com/user-attachments/assets/482c0fa0-2c4e-4209-9576-0c740ceb0ba2)  
+2.去CMD用nslookup去尋找ip位置
 
 硬體電路：
 1. 將 MOSFET 線插在麵包板上面，每個腳位要在不同的線路上。下圖為 MOSFET 的三個腳位。
