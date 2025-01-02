@@ -136,6 +136,8 @@ sudo iptables -A OUTPUT -d 163.22.17.234 -j DROP
 最終電路圖如下：
 ![image](https://github.com/user-attachments/assets/5cd73c2c-f89d-4ecf-a5df-f848524f9f5e)
 
+### 實體配置
+水槍需要把版機固定住，需要自行分辨正負極
 ### 腳本
 我們提供的腳本所預設的GPIO是17，且觸發兩秒
 ## Usage
@@ -156,5 +158,7 @@ https://raspberrypi.stackexchange.com/questions/70931/how-do-i-do-a-basic-mosfet
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lesics.com%2Fhow-does-a-mosfet-work.html&psig=AOvVaw2MxxZidanqnzb0kbDMFeR3&ust=1735886471080000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOjzp5e31ooDFQAAAAAdAAAAABAE  
 https://raspberrytw.tumblr.com/post/48939062042/raspberry-pi-lirc-implement  
 https://hackmd.io/Sd59QRjvRHGNSpyHHdpccg  
+水槍購買連結:https://tw.shp.ee/3Ew3ym5  
+
 非常感謝MOLI免費支援MOSFET以及杜邦線和電風扇  
 非常感謝josh學長以及柏瑋學長的技術支援
