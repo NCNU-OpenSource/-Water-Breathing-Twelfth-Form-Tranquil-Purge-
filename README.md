@@ -20,14 +20,14 @@
 
 <!-- Which libraries do you use while you implement the project -->
 sudo apt install iptable
-### INPUT 鏈
+#### INPUT 鏈
 sudo iptables -A INPUT -s {網站IP} -j DROP
 
-### FORWARD 鏈 (有 LOG 規則)
+#### FORWARD 鏈 (有 LOG 規則)
 sudo iptables -A FORWARD -d {網站IP} -j LOG --log-prefix "{log隨意名稱}" --log-level 4
 sudo iptables -A FORWARD -d {網站IP} -j DROP
 
-### OUTPUT 鏈
+#### OUTPUT 鏈
 sudo iptables -A OUTPUT -d {網站IP} -j DROP
 
 ## Implementation Process
